@@ -1,9 +1,10 @@
 import React from "react";
 
-function NavBar() {
+function Navbar() {
   return (
     <nav>
-      <a href="#home">I'm a link!</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
     </nav>
   );
 }
@@ -19,18 +20,17 @@ function Home() {
 function About() {
   return (
     <div id="about">
-      <h1>About</h1>
+      <h2>About</h2>
     </div>
-  )
+  );
 }
-
 
 function App() {
   return (
     <div>
-      <NavBar />
-     <Home />
-     <About />
+      <Navbar />
+      <Home />
+      <About />
     </div>
   );
 }
